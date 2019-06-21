@@ -1,5 +1,4 @@
 <?php
-  require 'user.php';
   require 'database.php';
 
   $email = $_POST['email'];
