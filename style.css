@@ -1,0 +1,61 @@
+#container {
+  padding: 8px;
+}
+
+.message h2 {
+  margin: 0;
+}
+
+.badge {
+  margin-bottom: 4px;
+}
+
+#right-column {
+  margin: 8px auto;
+  background-color: #eaeaea;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+#left-column {
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crd-title {
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.crd-cost {
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.card-body {
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+#login-popup {
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
